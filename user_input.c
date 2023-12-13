@@ -11,7 +11,7 @@ void get_input_command(char *command, size_t size)
                 }
                 else
                 {
-                        kide_print("Error while reading input.\n");
+                        _print("Error while reading input.\n");
                         exit(EXIT_FAILURE);
                 }
         }
