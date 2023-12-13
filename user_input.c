@@ -6,7 +6,7 @@ void get_input_command(char *command, size_t size)
         {
                 if (feof(stdin))
                 {
-                        kide_print("\n");
+                        _print("\n");
                         exit(EXIT_SUCCESS);
                 }
                 else
